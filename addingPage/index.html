@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Merchant and Supplier</title>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <div class="form-section add-merchant">
+            <form>
+                <h1>Add Merchant</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Add Merchant</button>
+            </form>
+        </div>
+        <div class="form-section add-supplier">
+            <form>
+                <h1>Add Supplier</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Add Supplier</button>
+            </form>
+        </div>
+        <div class="toggle-section">
+            <div class="toggle-content">
+                <div class="toggle-panel supplier-panel">
+                    <h1>Welcome!</h1>
+                    <p>Here you can add merchants you want.</p>
+                    <button class="toggle-button" id="show-supplier-form">Add Supplier</button>
+                </div>
+                <div class="toggle-panel merchant-panel">
+                    <h1>Hi!</h1>
+                    <p>Here you can add suppliers you want.</p>
+                    <button class="toggle-button" id="show-merchant-form">Add Merchant</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
